@@ -1,0 +1,22 @@
+{
+    "name": "dank-dark",
+    "displayName": "Dank Dark",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "Enquiren",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dank Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dank-dark.json"
+            }
+        ]
+    }
+}

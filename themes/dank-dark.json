@@ -1,0 +1,133 @@
+{
+	"$schema": "vscode://schemas/color-theme",	
+	"name": "Dank Dark",
+  "include": "./base/dark-plus.json",
+  "type": "dark",
+  "tokenColors": [
+    {
+      "scope": ["markup.quote.markdown"],
+      "settings": { "fontStyle": "italic" }
+    },
+    {
+      "scope": ["markup.bold.markdown", "punctuation.definition.bold.markdown"],
+      "settings": { "fontStyle": "bold" }
+    },
+    {
+      "scope": [
+        "markup.italic.markdown",
+        "punctuation.definition.italic.markdown"
+      ],
+      "settings": { "fontStyle": "italic" }
+		},
+		{
+			"scope": "string",
+			"settings": {
+				// "foreground": "#ffaa64"
+			}
+		},
+    {
+      "scope": [
+        "markup.inline.raw.string.markdown",
+        "markup.fenced_code.block.markdown"
+      ],
+      "settings": { "fontStyle": "italic" }
+    },
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": { "fontStyle": "italic", "foreground": "#CCCCCC" }
+    },
+    {
+      "name": "Variable",
+      "scope": "variable",
+      "settings": { "fontStyle": "" }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
+      "settings": { "fontStyle": "" }
+    },
+    {
+      "name": "Keywords and Storage types",
+      "scope": [
+        "keyword",
+        "variable.language.this",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": { "fontStyle": "italic" }
+    },
+    {
+      "name": "Keywords operators",
+      "scope": ["keyword.operator"],
+      "settings": { "fontStyle": "" }
+    },
+    {
+      "name": "Inherited class",
+      "scope": "entity.other.inherited-class",
+      "settings": { "fontStyle": "" }
+    },
+    {
+      "name": "Variables, Let and Const",
+      "scope": ["variable.other.readwrites", "meta.definition.variable"],
+      "settings": { "fontStyle": "" }
+    },
+    {
+      "name": "Function name",
+      "scope": "entity.name.function",
+      "settings": { "fontStyle": "" }
+    },
+    {
+      "name": "Function argument",
+      "scope": "variable.parameter",
+      "settings": { "fontStyle": "" }
+    },
+    {
+      "name": "Tag name",
+      "scope": "entity.name.tag",
+      "settings": { "fontStyle": "" }
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name",
+      "settings": { "fontStyle": "italic" }
+    },
+    {
+      "name": "Meta - Decorator",
+      "scope": ["punctuation.decorator"],
+      "settings": { "fontStyle": "italic" }
+    },
+    {
+      "name": "Library function",
+      "scope": "support.function",
+      "settings": { "fontStyle": "" }
+    },
+    {
+      "name": "Library constant",
+      "scope": "support.constant",
+      "settings": { "fontStyle": "" }
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "settings": {
+        "fontStyle": " italic bold underline"
+      }
+    },
+    {
+      "name": "Invalid deprecated",
+      "scope": "invalid.deprecated",
+      "settings": {
+        "fontStyle": " bold italic underline"
+      }
+    },
+    {
+      "name": "Headings",
+      "scope": [
+        "markup.heading punctuation.definition.heading",
+        "entity.name.section"
+      ],
+      "settings": { "fontStyle": "" }
+    }
+  ]
+}
