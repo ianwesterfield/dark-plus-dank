@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",	
-	"name": "Dank Dark",
+	"name": "Dark+ (Dank)",
   "include": "./base/dark-plus.json",
   "type": "dark",
   "tokenColors": [

@@ -1,11 +1,15 @@
 {
-    "name": "dank-dark",
-    "displayName": "Dank Dark",
-    "description": "",
-    "version": "0.0.1",
-    "publisher": "Enquiren",
+    "name": "dar-plus-dank",
+    "displayName": "Dark+ (Dank)",
+    "description": "Dark+ (default dark) theme optimized for use with Dank Mono (https://philpl.gumroad.com/l/dank-mono)",
+    "version": "1.0.0",
+    "publisher": "Westerfield",
+    "repository": {
+        "url": "https://github.com/ianwesterfield/dank-dark",
+        "type": "VS Code Theme"
+    },
     "engines": {
-        "vscode": "^1.23.0"
+        "vscode": "^1.22.0"
     },
     "categories": [
         "Themes"
@@ -13,9 +17,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Dank Dark",
+                "label": "Dark+ (Dank)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/dank-dark.json"
+                "path": "./themes/dark-plus-dank.json"
             }
         ]
     }
