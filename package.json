@@ -4,7 +4,7 @@
     "description": "Dark+ (default dark) theme optimized for use with Dank Mono (https://philpl.gumroad.com/l/dank-mono)",
     "license": "UNLICENSE",
     "version": "1.0.0",
-    "publisher": "Ian Westerfield",
+    "publisher": "IanWesterfield",
     "repository": {
         "url": "https://github.com/ianwesterfield/dark-plus-dank",
         "type": "VS Code Theme"
